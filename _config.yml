@@ -314,8 +314,8 @@ jekyll-archives:
     - categories
     - tags
   layouts:
-    category: archive-taxonomy
-    tag: archive-taxonomy
+    category: archive
+    tag: archive
   permalinks:
     category: /categories/:name/
     tag: /tags/:name/
