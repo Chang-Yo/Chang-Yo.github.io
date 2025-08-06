@@ -67,8 +67,9 @@ reCaptcha:
   siteKey                :
   secret                 :
 atom_feed:
-  path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
+  path                   : /feed.xml # blank (default) uses feed.xml
+  hide                   : false # true, false (default)
+  title                  : "ChangYo's Blog"
 search                   : true # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : lunr # lunr (default), algolia, google
