@@ -1,0 +1,31 @@
+.social-share {
+  margin-top: 1em;
+  text-align: center;
+}
+.social-share__title {
+  font-size: 0.9em;
+  color: #666;
+}
+.social-share__icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.social-share__icon {
+  width: 24px;
+  height: 24px;
+  margin: 0 0.5em;
+}
+.btn--x {
+  color: #fffffff3; /* Twitter 白色 */
+}
+.btn--bilibili {
+  color: #03b0ea; /* B站蓝色 */
+}
+.btn--zhihu {
+  color: #0066ff; /* 知乎蓝色 */
+}
+.btn--bilibili:hover, .btn--zhihu:hover, .btn--x:hover {
+  opacity: 0.7;
+}
