@@ -1,6 +1,6 @@
 ---
-title: Tags
-layout: archive-taxonomy
-taxonomy: tags
+title: "Post Tags"
+layout: tags
 permalink: /tags/
+author_profile: true
 ---

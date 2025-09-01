@@ -3,7 +3,7 @@ layout: single
 title: "Writing Ahead"
 # date: 2025-08-04 10:00
 categories: 
-    - casual notes
+    - Casual notes
 tags:
     - content
 ---

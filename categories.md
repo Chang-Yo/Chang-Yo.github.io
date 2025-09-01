@@ -1,6 +1,8 @@
 ---
-title: Categories
-layout: archive-taxonomy
-taxonomy: categories
+layout: categories
+title: "Categories"
 permalink: /categories/
+author_profile: true
 ---
+
+

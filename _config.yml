@@ -41,7 +41,7 @@ comments:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
-    appid                :
+    appid                : 
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
@@ -64,8 +64,8 @@ comments:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
-  siteKey                :
-  secret                 :
+  siteKey                : 
+  secret                 : 
 atom_feed:
   path                   : /feed.xml # blank (default) uses feed.xml
   hide                   : false # true, false (default)
@@ -84,7 +84,7 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :
+google_site_verification : 
 bing_site_verification   :
 naver_site_verification  :
 yandex_site_verification :
@@ -95,7 +95,7 @@ twitter:
   username               : "ChangYo"
 facebook:
   username               : "ChangYo06"
-  app_id                 :
+  app_id                 : 
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
@@ -113,7 +113,7 @@ social:
 analytics:
   provider               : # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
+    tracking_id          : 
     anonymize_ip         : # true, false (default)
 
 
@@ -313,14 +313,11 @@ tag_archive:
 # https://github.com/jekyll/jekyll-archives
 jekyll-archives:
   enabled:
-    - categories
-    - tags
+    - year
   layouts:
-    category: archive-taxonomy
-    tag: archive-taxonomy
+    year: archive-taxonomy
   permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
+    year: /year-archive/
 
 
 # HTML Compression
