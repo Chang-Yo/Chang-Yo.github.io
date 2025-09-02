@@ -8,6 +8,7 @@
 
 .sidebar {
   @include clearfix();
+  margin-left: 1em;
   // @include breakpoint(max-width $large) {
   //   /* fix z-index order of follow links */
   //   position: relative;
@@ -164,14 +165,14 @@
 
 .author__name {
   margin: 0;
-
+  letter-spacing: 0.1em;
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 10px;
   }
 }
 .sidebar .author__name {
-  font-family: $sans-serif;
+  font-family:"Noto Serif SC";
   font-size: $type-size-5;
 }
 

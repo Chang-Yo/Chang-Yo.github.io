@@ -109,12 +109,13 @@ body {
   p,
   li,
   dl {
-    font-size: 1em;
+    font-size: 0.83em;
   }
 
   /* paragraph indents */
   p {
     margin: 0 0 $indent-var;
+    font-family: "Noto Serif SC", serif;
 
     /* sibling indentation*/
     @if $paragraph-indent == true {
@@ -130,7 +131,7 @@ body {
       text-decoration: underline;
 
       img {
-        box-shadow: 0 0 10px rgba(#000, 0.25);
+        box-shadow: 0 0 10px rgba(#000000, 0.25);
       }
     }
   }
