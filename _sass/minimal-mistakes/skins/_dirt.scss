@@ -4,21 +4,21 @@
 
 /* Colors */
 $background-color: #e6e6e6 !default;
-$text-color: #343434 !default;
-$muted-text-color: #8e8b82 !default;
-$primary-color: #343434 !default;
-$border-color: #e9dcbe !default;
+$text-color: #000000 !default;
+$muted-text-color: #000000 !default;
+$primary-color: #000000 !default;
+$border-color: #000000 !default;
 $footer-background-color: #d8d7d2 !default;
 $link-color: #343434 !default;
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: $text-color !default;
-$navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
-$code-background-color: #a0a0a0 !default;
-$code-background-color-dark:#262626 !default; /* 深色代码块背景（如高亮区域） */
+$navicon-link-color-hover: mix(#000000, $text-color, 80%) !default;
+$code-background-color: #e6e6e6 !default;
+$code-background-color-dark:#000000 !default; /* 深色代码块背景（如高亮区域） */
 
 /* dirt syntax highlighting (base16) */
-$base00: #231e18 !default;
-$base01: #302b25 !default;
+$base00: #5d5d5d !default;
+$base01: #000000 !default;
 $base02: #48413a !default;
 $base03: #9d8b70 !default;
 $base04: #b4a490 !default;

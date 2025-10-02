@@ -36,5 +36,8 @@ Generally I will collect my posted writings in this website as a backage. You ca
 
 If you have any interest about me, don't be afraid to contact me by the email!!
 
-> *To strive, to seek, to find, and not to yield*
->—— *Alfred Lord Tennyson*
+
+
+> ***To strive, to seek, to find, and not to yield.***
+> 
+>—— ***Alfred Lord Tennyson***
