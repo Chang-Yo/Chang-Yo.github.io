@@ -3,27 +3,27 @@
    ========================================================================== */
 
 /* Colors */
-$background-color: #c7c7c7 !default;
+$background-color: #e0e0e0 !default;
 $text-color: #000000 !default;
 $muted-text-color: #6c757d !default;
 $primary-color: #333333 !default;
-$border-color: #bcbcbc !default;
+$border-color: #5c5c5c !default;
 $footer-background-color: #786e63 !default;
 $link-color: #2e2e2e !default;
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: $primary-color !default;
 $navicon-link-color-hover: mix(#373737, $text-color, 80%) !default;
-$code-background-color: #545454 !default;
-$code-background-color-dark: #000000 !default;
+$code-background-color: #a7a7a7 !default;
+$code-background-color-dark: #7d7d7d !default;
 
 /* Syntax Highlighting (light) */
-$base00: #ffffff !default;
+$base00: #c2c2c2 !default;
 $base01: #f8f9fa !default;
 $base02: #e9ecef !default;
 $base03: #6c757d !default;
 $base04: #495057 !default;
 $base05: #212529 !default;
-$base06: #212529 !default;
+$base06: #7f7f7f !default;
 $base07: #212529 !default;
 $base08: #d73a49 !default; /* red */
 $base09: #fd7e14 !default; /* orange */
