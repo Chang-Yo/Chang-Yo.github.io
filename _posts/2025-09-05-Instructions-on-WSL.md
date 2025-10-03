@@ -143,7 +143,7 @@ preLaunchTask "ABC"---->  label 为 "ABC" 的task
 
 > type 表示任务的执行类型，cppbuild表示专门用于构建C++任务类型，shell则可以构建多个语言任务，如果你的文件中还有py文件等，用shell更合适
 
-这个要和launch中的 type 区分一下，它表示调试器的类型，对C++用cppdbg(基于GDB或LLDB），对Python用python，对Node.js用node.
+这个要和launch中的 type 区分一下，它表示调试器的类型，对C++用cppdbg(基于GDB或LLDB)，对Python用python，对Node.js用node.
 
 > command 翻译为命令，可以理解为执行该task的主体。
 
@@ -184,7 +184,7 @@ tasks会生成对应可执行文件，launch会去寻找这个文件，然后运
 
 那么我们来进一步理解这些诸如filename之类的变量的含义。
 
-![image](../assets/images/变量含义.png "豆包的回答")
+![image](../assets/images/variable_idea.png "豆包的回答")
 
 这里还要解释下cwd（current working directory）的作用，相当于是给所有路径加了个起点，如果设置为${workspaceFolder}，那么-g, -o任务默认从这个根目录开始，这样它们下面你可以省略写${workspaceFolder}
 
