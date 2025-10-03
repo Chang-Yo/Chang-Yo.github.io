@@ -3,18 +3,18 @@
    ========================================================================== */
 
 /* Colors */
-$background-color: #ffffff !default;
-$text-color: #212529 !default;
+$background-color: #c7c7c7 !default;
+$text-color: #000000 !default;
 $muted-text-color: #6c757d !default;
-$primary-color: #007bff !default;
-$border-color: #dee2e6 !default;
-$footer-background-color: #343a40 !default;
-$link-color: #007bff !default;
+$primary-color: #333333 !default;
+$border-color: #bcbcbc !default;
+$footer-background-color: #786e63 !default;
+$link-color: #2e2e2e !default;
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: $primary-color !default;
-$navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
-$code-background-color: #f8f9fa !default;
-$code-background-color-dark: #e9ecef !default;
+$navicon-link-color-hover: mix(#373737, $text-color, 80%) !default;
+$code-background-color: #545454 !default;
+$code-background-color-dark: #000000 !default;
 
 /* Syntax Highlighting (light) */
 $base00: #ffffff !default;
