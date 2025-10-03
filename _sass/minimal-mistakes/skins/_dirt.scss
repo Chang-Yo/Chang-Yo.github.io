@@ -1,35 +1,35 @@
 /* ==========================================================================
-   Dirt skin
+   Common Light Skin (previously Dirt)
    ========================================================================== */
 
 /* Colors */
-$background-color: #e6e6e6 !default;
-$text-color: #000000 !default;
-$muted-text-color: #000000 !default;
-$primary-color: #000000 !default;
-$border-color: #000000 !default;
-$footer-background-color: #d8d7d2 !default;
-$link-color: #343434 !default;
+$background-color: #ffffff !default;
+$text-color: #212529 !default;
+$muted-text-color: #6c757d !default;
+$primary-color: #007bff !default;
+$border-color: #dee2e6 !default;
+$footer-background-color: #343a40 !default;
+$link-color: #007bff !default;
 $masthead-link-color: $text-color !default;
-$masthead-link-color-hover: $text-color !default;
-$navicon-link-color-hover: mix(#000000, $text-color, 80%) !default;
-$code-background-color: #e6e6e6 !default;
-$code-background-color-dark:#000000 !default; /* 深色代码块背景（如高亮区域） */
+$masthead-link-color-hover: $primary-color !default;
+$navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
+$code-background-color: #f8f9fa !default;
+$code-background-color-dark: #e9ecef !default;
 
-/* dirt syntax highlighting (base16) */
-$base00: #5d5d5d !default;
-$base01: #000000 !default;
-$base02: #48413a !default;
-$base03: #9d8b70 !default;
-$base04: #b4a490 !default;
-$base05: #cabcb1 !default;
-$base06: #d7c8bc !default;
-$base07: #e4d4c8 !default;
-$base08: #d35c5c !default;
-$base09: #ca7f32 !default;
-$base0a: #e0ac16 !default;
-$base0b: #b7ba53 !default;
-$base0c: #6eb958 !default;
-$base0d: #88a4d3 !default;
-$base0e: #bb90e2 !default;
-$base0f: #b49368 !default;
+/* Syntax Highlighting (light) */
+$base00: #ffffff !default;
+$base01: #f8f9fa !default;
+$base02: #e9ecef !default;
+$base03: #6c757d !default;
+$base04: #495057 !default;
+$base05: #212529 !default;
+$base06: #212529 !default;
+$base07: #212529 !default;
+$base08: #d73a49 !default; /* red */
+$base09: #fd7e14 !default; /* orange */
+$base0a: #ffc107 !default; /* yellow */
+$base0b: #28a745 !default; /* green */
+$base0c: #17a2b8 !default; /* cyan */
+$base0d: #007bff !default; /* blue */
+$base0e: #6f42c1 !default; /* purple */
+$base0f: #e83e8c !default; /* magenta */

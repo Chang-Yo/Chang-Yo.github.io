@@ -21,7 +21,7 @@ I love computer techs, writing and reading.
 
 I am currently focused on mastering the professional courses required by my university's curriculum while also self-studying various programming techniques.
 
-## Learing Target 🎯
+## Learning Target 🎯
 - [x] Vim
 - [x] Git 
 - [ ] [Missing Semester](https://missing.csail.mit.edu/2020/)
