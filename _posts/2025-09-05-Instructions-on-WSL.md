@@ -184,7 +184,7 @@ tasks会生成对应可执行文件，launch会去寻找这个文件，然后运
 
 那么我们来进一步理解这些诸如filename之类的变量的含义。
 
-![image](../assets/images/variable_idea.png "豆包的回答")
+![image](/assets/images/variable_idea.png "豆包的回答")
 
 这里还要解释下cwd（current working directory）的作用，相当于是给所有路径加了个起点，如果设置为${workspaceFolder}，那么-g, -o任务默认从这个根目录开始，这样它们下面你可以省略写${workspaceFolder}
 
